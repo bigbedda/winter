@@ -1,5 +1,7 @@
 :root {
     --background: rgb(36, 36, 36, .75);
+    --intro: rgb(116, 111, 111);
+    --intro-color: rgb(230, 230, 230);
 }
 *,*::before, *::after {
     box-sizing: border-box;
@@ -26,7 +28,9 @@ header {
 
 .logo {
     margin: 0;
-    margin-top: 10px
+    margin-top: 10px;
+    
+    
 }
 
 .nav-toggle {
